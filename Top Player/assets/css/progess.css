@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: sans-serif;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    background-color: rgb(29, 29, 29);
+}
+
+@keyframes slide {
+    form {
+        transform: translateX(0);
+    }
+    to {
+        transform: translateX(-100%);
+    }
+}
+
+
+.top-page{
+    background-color: rgb(255, 219, 60);
+    overflow: hidden;
+    white-space: nowrap;
+    padding: 1.5rem 0;
+}
+
+.top-page .slide {
+    display: inline-block;
+    animation: 20s slide infinite linear;
+}
+
+.top-page .slide p{
+    display: inline-block;
+    font-size: 150px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin: 0 4rem;
+    color: rgb(29, 29, 29);
+}

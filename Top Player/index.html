@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Activité FOAD BLENDED - HTML</title>
+
+    <!-- LINK CSS -->
+    <link rel="stylesheet" href="assets/css/style.css">
+
+    <!-- LINK FONT AWESOME -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <!-- FAVICON -->
+    <link rel="icon" href="assets/img/favicon.png" />
+
+</head>
+<body>
+
+    <!-- HEADER -->
+    <header>
+
+        <nav>
+            <a href="index.html" class="nav-logo">
+                <span>top</span> <span>player</span>
+            </a>
+
+            <div class="nav-links">
+                <a href="actu.html">actualité</a>
+                <a href="categorie.html">catégorie</a>
+                <a href="vote.html">Vote pour le prochain focus !</a>
+            </div>
+        </nav>
+
+    </header>
+
+    <div class="audio">
+
+        <div class="slider_container">
+            <p>silver scrape</p>
+
+            <audio id="monAudio" autoplay>
+                <source src="assets/audio/silver-scrape.mp3">
+            </audio>
+
+            <button onclick="toggleAudio()">PAUSE / <i class="fa-solid fa-rotate-right"></i></button>
+
+            <input type="range" min="0" max="1" step="0.1" value="1" id="volumeControl">
+        </div>
+
+    </div>
+
+    <main>
+
+        <!--  PRESENTATION -->
+        <section class="presentation" id="presentation">
+            <h1>league of legend</h1>
+            <h2>focus sur Alexis, un support pas comme les autres</h2>
+            <p>"Alexis, également connu sous le pseudonyme "The Arms Ρeddler" , incarne l'excellence dans l'arène compétitive de League of Legends. Avec un classement actuel en Diamond 1, ses performances démontrent une maîtrise exceptionnelle des champions de support, en particulier Rakan, où son expertise se traduit par une impressionnante victoire dans 67% des parties récentes.<br>
+                Sa récente progression vers Diamond 3 témoigne de son engagement envers l'amélioration constante, et son classement parmis les 2.11% des meilleurs joueurs dans le ladder est une affirmation de sa compétence. En outre, ses performances individuelles impressionnantes, comme un KDA de 7.67:1 avec Rakan, reflètent sa capacité à influencer positivement le cours des parties.<br>
+                Au-delà des chiffres, Alexis se distingue par sa capacité à coopérer avec son équipe, à prendre des décisions éclairées et à jouer de manière stratégique. Son impact en tant que support ne se limite pas seulement à la protection de ses alliés, mais s'étend également à des initiatives agressives qui marquent la différence dans les engagements clés.<br>
+                En résumé, Alexis, "The Arms Ρeddler," incarne la quintessence de l'habileté stratégique et de la maîtrise individuelle dans l'univers compétitif de League of Legends, laissant une empreinte durable sur le champ de bataille virtuel. "</p>
+                <div class="line"></div>
+        </section>
+
+        <!-- CLIP -->
+        <section class="clip" id="clip">
+
+            <h2>clip</h2>
+
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis quia nihil tempore! Placeat cumque voluptas tenetur modi fugit, eligendi magni quos debitis a doloribus quisquam officia. Laborum tempora suscipit dolor!</p>
+
+            <div class="clip-container">
+
+                <h3>rakan</h3>
+
+                <div class="container">
+                    <video preload="metadata" controls loop>
+                        <source src="assets/video/clip_rakan1.mp4" type="video/mp4">     
+                    </video>
+    
+                    <video preload="metadata" controls loop>
+                        <source src="assets/video/clip_rakan2.mp4" type="video/mp4">     
+                    </video>
+                </div>
+
+                <a href="btn-clip">en voir plus</a>
+
+            </div>
+
+            <div class="clip-container">
+
+                <h3>alistar</h3>
+
+                <div class="container">
+                    <video preload="metadata" controls loop>
+                        <source src="assets/video/clip_alistar.mp4" type="video/mp4">     
+                    </video>
+    
+                    <video preload="metadata" controls loop>
+                        <source src="assets/video/clip_alistar.mp4" type="video/mp4">     
+                    </video>
+                </div>
+
+                <a href="#" class="btn-clip">en voir plus</a>
+
+            </div>
+
+            <div class="clip-container">
+
+                <h3>amumu</h3>
+
+                <div class="container">
+                    <video preload="metadata" controls loop>
+                        <source src="assets/video/clip_amumu.mp4" type="video/mp4">     
+                    </video>
+    
+                    <video preload="metadata" controls loop>
+                        <source src="assets/video/clip_amumu.mp4" type="video/mp4">     
+                    </video>
+                </div>
+
+                <a href="#" class="btn-clip">en voir plus</a>
+
+            </div>
+           
+
+        </section>
+
+    </main>
+
+    <footer>
+
+        <div class="line"></div>
+        <p>&copy; alexis gontiern - maxime bidan - arnaud fischer</p>
+        <div class="line"></div>
+
+    </footer>
+    
+    <script src="assets/js/script.js"></script>
+
+</body>
+</html>
